@@ -16,7 +16,7 @@ worldguard = "7.0.14"
 # Shaded dependencies
 annotations = "26.0.2"
 bstats = "3.1.0"
-commandApi = "11.1.0"
+commandApi = "12.1.0"
 fastUtil = "8.5.18"
 foliaScheduler = "0.7.5"
 gson = "2.13.1"
