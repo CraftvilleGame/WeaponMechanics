@@ -4,6 +4,7 @@ plugins {
 }
 
 repositories {
+    mavenLocal { content { includeModule("com.cjcrafter", "mechanicscore") } } // Craftville fork of MechanicsCore
     maven(url = "https://central.sonatype.com/repository/maven-snapshots/") // MechanicsCore Snapshots
 }
 

@@ -13,6 +13,7 @@ plugins {
 dependencyResolutionManagement {
     //repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        mavenLocal { content { includeModule("com.cjcrafter", "mechanicscore") } } // Craftville fork of MechanicsCore
         mavenCentral()
         maven(url = "https://central.sonatype.com/repository/maven-snapshots/") // FoliaScheduler Snapshots
         maven(url = "https://repo.papermc.io/repository/maven-public/") // Paper
